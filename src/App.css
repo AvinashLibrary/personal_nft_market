@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar{
+  display: flex;
+  position: initial;
+  height: 4rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: bisque;
+  padding-right: 0.5rem;
+}
+
+.customContainer{
+  margin-top: 4rem !important;
+}
+
+.customLink{
+  background-color: black;
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  box-shadow: coral;
+  border-color: transparent;
+  line-height: 1rem;
+  font-weight: bolder;
+  height: fit-content;
+  width: 6rem;
+  margin-top: 0.4rem;
+
+}
